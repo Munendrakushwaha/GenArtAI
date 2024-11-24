@@ -126,7 +126,6 @@
         .then(response => response.json())
        .then(data => {
          loadingGif.classList.toggle("d-none")
-         console.log(data);
          const image = data.images;
          const container = document.querySelector(".imageCont");
          let totalHtml = "";
